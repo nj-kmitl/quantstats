@@ -21,7 +21,7 @@
 import matplotlib.pyplot as _plt
 
 try:
-    _plt.rcParams["font.family"] = "Arial"
+    _plt.rcParams["font.family"] = "DejaVu Sans"
 except Exception:
     pass
 
@@ -106,7 +106,7 @@ def plot_returns_bars(
     log_scale=False,
     figsize=(10, 6),
     grayscale=False,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     ylabel=True,
     subtitle=True,
     savefig=None,
@@ -260,7 +260,7 @@ def plot_timeseries(
     figsize=(10, 6),
     ylabel="",
     grayscale=False,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     subtitle=True,
     savefig=None,
     show=True,
@@ -405,7 +405,7 @@ def plot_histogram(
     benchmark,
     resample="ME",
     bins=20,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     grayscale=False,
     title="Returns",
     kde=True,
@@ -608,7 +608,7 @@ def plot_rolling_stats(
     figsize=(10, 6),
     ylabel="",
     grayscale=False,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     subtitle=True,
     savefig=None,
     show=True,
@@ -735,7 +735,7 @@ def plot_rolling_beta(
     hlcolor="red",
     figsize=(10, 6),
     grayscale=False,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     lw=1.5,
     ylabel=True,
     subtitle=True,
@@ -875,7 +875,7 @@ def plot_longest_drawdowns(
     returns,
     periods=5,
     lw=1.5,
-    fontname="Arial",
+    fontname="DejaVu Sans",
     grayscale=False,
     title=None,
     log_scale=False,
@@ -989,7 +989,7 @@ def plot_longest_drawdowns(
 def plot_distribution(
     returns,
     figsize=(10, 6),
-    fontname="Arial",
+    fontname="DejaVu Sans",
     grayscale=False,
     ylabel=True,
     subtitle=True,
